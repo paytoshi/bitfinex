@@ -6,7 +6,7 @@ dependencies = [
     'httpretty'
 ]
 
-version = '0.2.6'
+version = '0.2.7'
 
 setup(name='bitfinex',
     version=version,
@@ -18,7 +18,7 @@ setup(name='bitfinex',
     packages=['bitfinex'],
     scripts = ['scripts/bitfinex-poll-orderbook'],
     install_requires = dependencies,
-    download_url = 'https://github.com/scottjbarr/bitfinex/tarball/%s' % version,
+    download_url = 'https://github.com/philsong/bitfinex/tarball/%s' % version,
     keywords = ['bitcoin', 'btc'],
     classifiers = [],
     zip_safe=True)
